@@ -21,16 +21,20 @@ The above link shows the codes and detailed explanation of my thinking behind ea
 
 ## Results
 1. How many Customers Joined the company in the last quarter?
+
 The above question was answered in [here](https://github.com/samuelejedegba/Telecommunications-SQL-Project/blob/main/Communication%20query.sql) in my SQL analysis. It was also highlighted in the Power BI analysis below using the filter function to highlight the customers that joined in the service in the last 3 months.
 1051 Customers joined in the last 3 months, which is the last quarter of the year.
 
 2. What is the customer profile for a customer that churned, joined, and stayed? Are they different?
+
 This was also analysed in my [SQL analysis](https://github.com/samuelejedegba/Telecommunications-SQL-Project/blob/main/Communication%20query.sql) where I created 3 smaller tables from the main table using the 'Stayed', 'Joined', and 'Churned' customer profiles. I analysed the average age, marriage status, Number of referrals, internet type, etc. Some useful insights were gotten from this analysis which drew some recommendations that will be highlighted below.
 
 3. What seem to be the key drivers of customer churn?
+
 This was also analysed in my [SQL analysis](https://github.com/samuelejedegba/Telecommunications-SQL-Project/blob/main/Communication%20query.sql) and drew some recommendations for the telecommunications company. Customer churn was mostly driven by City, Competition, Attitude of support person, Internet Type, Offers Given and Length of Contract.
 
 4. Is the company losing high-value customers? If so, how can they retain them?
+
 The simple answer is Yes. I examined the number of customers that spend above the average monthly bill for all the customers and out of 1869 churned customers, 1343 spend the average monthly charge or above. These are some high value customers.
 
 ## Power BI Visual
